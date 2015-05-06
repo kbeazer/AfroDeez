@@ -25,7 +25,7 @@ footer{
 	padding-bottom: 10px;
 }
 .socialMedia img{
-	padding: 0 15px;
+	padding: 0 10px;
 }
 footer p{
 	color: #efefef;
@@ -74,6 +74,9 @@ footer p{
 	}
 	nav ul li a{
 		color: #efefef;
+	}
+	.navHide{
+		display: none;
 	}
 	.featImage img{
 		width: 100%;
