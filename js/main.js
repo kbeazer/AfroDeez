@@ -3,5 +3,10 @@ $(document).ready(function(){
 		$(this).attr('src', 'images/menuA.png');
 	},function(){
 		$(this).attr('src', 'images/menu.png');
-	})
+	});
+
+	$('.menuBar').click(function(e){
+		e.preventDefault();
+		$('.navHide').slideToggle('slow');	
+	});
 });

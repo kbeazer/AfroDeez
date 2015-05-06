@@ -1,15 +1,20 @@
 $(document).ready(function(){
+	console.log('Im working....kind of....')
 	$('.menuBar').hover(function(){
 		$(this).attr('src', 'images/menuA.png');
-		console.log('hover In!!!!!');
 	},function(){
 		$(this).attr('src', 'images/menu.png');
-		console.log('hover Out!!!!!');
-	})
+	});
 
 	$('.menuSlide').click(function(e){
 		e.preventDefault();
-		$('.navHide').slideToggle('slow');
-		console.log('Im working bitches!!!!!');
-	})
+
+		if($('featImage img').is(':visible')){
+			$('featImage img').hide();
+		}
+		else{
+			$('featImage img').show();
+		}
+		// $('.navHide').slideToggle('slow');	
+	});
 });
