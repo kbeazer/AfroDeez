@@ -9,4 +9,8 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.navHide').slideToggle('slow');	
 	});
+
+	$('.navHide').click(function(){
+		$('.navHide').slideToggle('slow');	
+	});
 });
