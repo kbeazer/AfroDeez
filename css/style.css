@@ -73,14 +73,15 @@ footer p{
 	}
 	nav ul li a{
 		color: #efefef;
+		padding: 20px 40px;
 	}
 	.navHide{
 		display: none;
 		position: absolute;
 		top: 9%;
 		width: 100%;
-		background-color: rgba(0,0,0,.1);
-		padding: 60px 0 300px 0;
+		background-color: rgba(0,0,0,.3);
+		padding: 60px 0 200px 0;
 	}
 	.featImage{
 		padding: 10px 0;
@@ -98,7 +99,7 @@ footer p{
 		background-color: #ff0000;
 	}
 	.biography{
-		padding: 0 20px;
+		padding: 20px;
 	}
 	.biography p{
 		line-height: 25px;
