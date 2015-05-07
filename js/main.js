@@ -50,4 +50,12 @@ $(document).ready(function(){
 		$(this).css('backgroundColor', '#123');
 		$('.link5').css('color', '#efefef');
 	});
+
+	$('.hover6').hover(function(){
+		$(this).css('backgroundColor', '#cdcdcd');
+		$('.link6').css('color', '#123');
+	},function(){
+		$(this).css('backgroundColor', '#123');
+		$('.link6').css('color', '#efefef');
+	});
 });

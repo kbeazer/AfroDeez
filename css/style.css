@@ -9,7 +9,7 @@ a{
 li{
 	list-style: none;
 }
-a, p{
+a, p, h2, h3{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
@@ -166,6 +166,39 @@ footer p{
 	.biography p{
 		line-height: 25px;
 		color: #123;
+	}
+	.eventDate{
+		background-color: #123;
+		width: 20%;
+		display: inline-block;
+		text-align: center;
+		color: #efefef;
+		padding: 20px 0 80px 0;
+	}
+	.event{
+		margin-bottom: 20px;
+	}
+	.event img{
+		max-width: 60%;
+		vertical-align: middle;
+	}
+	.eventList{
+		padding: 20px;
+	}
+	.eventList h2, .eventHeading a{
+		color: #ff5419;
+	}
+	.eventHeading{
+		border-bottom: 1px solid #123;
+	}
+	.newsList{
+		background-color: #cdcdcd;
+		padding: 10px 20px;
+	}
+	.newsItem{
+		background-color: #fff;
+		padding: 10px 0;
+		margin-bottom: 10px;
 	}
 } 
 
