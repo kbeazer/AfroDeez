@@ -68,7 +68,7 @@ footer p{
 	}
 	nav ul li{
 		background-color: #123;
-		padding: 20px 0;
+		padding: 25px 0;
 		border-bottom: 1px solid #a9aa9c;
 	}
 	nav ul li a{
@@ -88,6 +88,21 @@ footer p{
 	.featImage img{
 		width: 100%;
 		padding-top: 6px;
+	}
+	.goHome{
+		background-color: #a9aa9c;
+		color: #efefef;
+		padding: 10px;
+	}
+	.goHome:hover{
+		background-color: #ff0000;
+	}
+	.biography{
+		padding: 0 20px;
+	}
+	.biography p{
+		line-height: 25px;
+		color: #123;
 	}
 } 
 
