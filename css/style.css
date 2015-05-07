@@ -15,6 +15,19 @@ a, p{
 h1{
 	margin: 0;
 }
+.featImage{
+	width: 100%;
+}
+#slider1_container{
+	position: relative; 
+	height: 390px;
+}
+.slides{
+	overflow: hidden;
+	width: 90%;
+	height: 350px;
+	margin: 20px;
+}
 footer{
 	background-color: #000;
 	padding: 20px;
@@ -83,13 +96,6 @@ footer p{
 		background-color: rgba(0,0,0,.3);
 		padding: 60px 0 200px 0;
 	}
-	.featImage{
-		padding: 10px 0;
-	}
-	.featImage img{
-		width: 100%;
-		padding-top: 6px;
-	}
 	.latestVids{
 		background-color: #fff;
 		text-align: center;
@@ -128,11 +134,22 @@ footer p{
 	}
 	.store a{
 		background-color: #123;
-		color: #ff5419;
+		color: #efefef;
 		padding: 20px 30%;
 	}
+	.store a:hover{
+		background-color: #ff5419;
+	}
 	.store img{
-		width: 10%;
+		width: 5%;
+	}
+	.cartLeft{
+		position: absolute;
+		left: 22%;
+	}
+	.cartRight{
+		position: absolute;
+		right: 22%;
 	}
 	.goHome{
 		background-color: #a9aa9c;
