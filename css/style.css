@@ -135,7 +135,7 @@ footer p{
 	.store a{
 		background-color: #123;
 		color: #efefef;
-		padding: 20px 30%;
+		padding: 20px 25%;
 	}
 	.store a:hover{
 		background-color: #ff5419;
@@ -145,11 +145,11 @@ footer p{
 	}
 	.cartLeft{
 		position: absolute;
-		left: 22%;
+		left: 25%;
 	}
 	.cartRight{
 		position: absolute;
-		right: 22%;
+		right: 25%;
 	}
 	.goHome{
 		background-color: #a9aa9c;
