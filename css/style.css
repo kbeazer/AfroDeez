@@ -90,6 +90,12 @@ footer p{
 		width: 100%;
 		padding-top: 6px;
 	}
+	.latestVids{
+		background-color: #fff;
+	}
+	.vidBox iframe{
+		width: 100%;
+	}
 	.goHome{
 		background-color: #a9aa9c;
 		color: #efefef;
