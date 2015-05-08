@@ -214,6 +214,20 @@ footer p{
 		padding: 10px 0;
 		margin-bottom: 10px;
 	}
+
+	.imageGallery{
+		padding: 250px 0 950px 30px;
+	}
+	.topRow{
+		width: 100%;
+		height: 200px;
+	}
+	.topRow img{
+		width: 45%;
+		float: left;
+		clear: right;
+		padding: 2px;
+	}
 } 
 
 /* Medium Screens*/
