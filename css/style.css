@@ -16,7 +16,7 @@ h1{
 	margin: 0;
 }
 .spotlight{
-	padding-top: 180px;
+	padding-top: 110px;
 }
 .featImage{
 	width: 100%;
@@ -70,6 +70,7 @@ footer p{
 		display: inline-block;
 		padding-right: 50px;
 		width: 50%;
+		height: 100px;
 	}
 	.pageHead a{
 		color: #efefef;	
@@ -158,23 +159,26 @@ footer p{
 		right: 25%;
 	}
 	.goHome{
-		padding: 200px 0 0 0;
+		padding-top: 100px;
 		position: fixed;
 		top: -20px;
+		width: 100%;
 	}
-	.goHome a{
+	.goHome h3{
 		background-color: #a9aa9c;
 		color: #efefef;
-		padding: 20px 180px;
+		text-align: center;
+		width: 100%;
+		padding: 20px 0;
 	}
-	.goHome a:hover{
+	.goHome h3:hover{
 		background-color: #ff5419;
 	}
 	.biography{
 		padding: 20px;
 	}
 	.biography p{
-		padding-top: 210px;
+		padding-top: 160px;
 		line-height: 25px;
 		color: #123;
 	}
@@ -187,7 +191,7 @@ footer p{
 		padding: 20px 0 80px 0;
 	}
 	.news{
-		padding-top: 220px;
+		padding-top: 150px;
 	}
 	.event{
 		margin-bottom: 20px;
@@ -216,7 +220,7 @@ footer p{
 	}
 
 	.imageGallery{
-		padding: 250px 0 950px 30px;
+		padding: 200px 0 820px 30px;
 	}
 	.topRow{
 		width: 100%;

@@ -58,4 +58,8 @@ $(document).ready(function(){
 		$(this).css('backgroundColor', '#123');
 		$('.link6').css('color', '#efefef');
 	});
+
+	$('.mainText').click(function(){
+		window.location.href = "index.html";
+	});
 });
